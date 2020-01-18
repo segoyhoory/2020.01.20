@@ -4,7 +4,6 @@
 @import 'works.css';
 @import 'facts.css';
 @import 'aboutus.css';
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 @font-face {
   font-family: "RUSBoycott";
@@ -13,12 +12,11 @@
 
 body {
   font-family: 'PT Sans Narrow', sans-serif;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 h2, h3, h4, h5 {
   font-family: "RUSBoycott";
   text-transform: uppercase;
 }
-=======
+
 @import "shredder.css"
->>>>>>> 325866ef9734fd31f6be29d28d1f7275a3d1390a
