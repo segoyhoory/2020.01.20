@@ -1,4 +1,6 @@
 .author h2 {
   font-size: 48px;
-  font-family: "RUSBoycott";
+}
+.author h3 {
+  font-size: 30px;
 }
