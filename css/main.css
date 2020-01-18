@@ -4,3 +4,7 @@
 @import 'works.css';
 @import 'facts.css';
 @import 'aboutus.css';
+@font-face {
+  font-family: "RUSBoycott";
+  src: url(../8953.ttf);
+}
