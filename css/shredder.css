@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+img {
+  display: block;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  max-width: 100%;
+}
+.frame {
+  overflow: hidden;
+  margin: 10px auto 0 auto;
+  max-width: 350px;
+  border: 25px ridge #ECCC0D;
+}
+.frame img {
+  max-width: 100%;
+  animation-name: hide;
+}
+.shredded {
+  position: relative;
+  margin: 0px auto;
+  max-width: 350px;
+  overflow: hidden;
+}
+.shredded .shreds {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: repeating-linear-gradient(90deg, #111, #111 4px, transparent 5px, transparent 20px);
+}
+.shredded img {
+  transform: translateY(-100%);
+  animation-name: show;
+}
+@keyframes show {
+  0% {
+    transform: translateY(-100%);
+  }
+  15% {
+    transform: translateY(-100%);
+  }
+  85% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes hide {
+  0% {
+    transform: translateY(0%);
+  }
+  15% {
+    transform: translateY(0%);
+  }
+  75% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
