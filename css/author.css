@@ -1,6 +1,21 @@
+.author {
+  margin-bottom: 60px;
+}
 .author h2 {
   font-size: 48px;
 }
 .author h3 {
   font-size: 30px;
+}
+.author h2 {
+  margin-bottom: 32px;
+}
+.author img {
+  margin-bottom: 32px;
+}
+.author h3 + p {
+  margin-top: 24px;
+}
+.author__aboutart {
+  margin-top: 50px;
 }
