@@ -8,27 +8,6 @@ header{
   justify-content: center;
   align-items: center;
 }
-.container_hr{
-  height: 320px;
-  display: flex;
-}
-
-hr{
-  margin-top: 0;
-  background-color: black;
-  border: none;
-  margin-left: 10px;
-}
-
-hr:nth-child(odd){
-  width: 2px;
-  height: 30px;
-}
-
-hr:nth-child(even){
-  width: 2px;
-  height: 10px;
-}
 
 h1 {
   position: absolute;
