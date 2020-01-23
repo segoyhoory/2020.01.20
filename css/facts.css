@@ -1,0 +1,18 @@
+.facts {
+  margin-left: 40px;
+}
+
+.facts p {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.facts p:before {
+  content: "?";
+  font-family: "RUSBoycott";
+  text-transform: uppercase;
+  font-size: 50px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+}

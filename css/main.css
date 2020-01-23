@@ -13,6 +13,8 @@
 body {
   font-family: 'PT Sans Narrow', sans-serif;
   margin: 0 auto;
+  width: 290px;
+  line-height: 140%;
 }
 h2, h3, h4, h5 {
   font-family: "RUSBoycott";
