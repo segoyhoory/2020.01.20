@@ -35,3 +35,53 @@ h1 {
   font-size: 200px;
   top: -10%;
 }
+
+.author {
+  height: 600px;
+}
+
+.author h1{
+font-family: RUSBoycott;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 74px;
+text-transform: uppercase;
+position: absolute;
+width: 225px;
+height: 57px;
+left: 29px;
+}
+
+.biography h2{
+  width: 152px;
+  height: 46px;
+  font-family: RUSBoycott;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.artist h2 {
+width: 126px;
+height: 37px;
+left: 32px;
+top: 1731px;
+font-family: RUSBoycott;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 37px;
+text-transform: uppercase;
+}
+
+.artist p{
+height: 220px;
+font-family: PT Sans Narrow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+}
